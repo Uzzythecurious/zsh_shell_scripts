@@ -5,7 +5,7 @@ dated=$(date)
 wher=$(pwd)
 privip=$(ipconfig getifaddr en0)
 publicip=$(curl -s icanhazip.com)
-weather=$(curl -s wttr.in/hull | head -17)
+weather=$(curl -s wttr.in | head -17)
 
 neofetch
 
